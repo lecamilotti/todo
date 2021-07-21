@@ -1,4 +1,5 @@
 import React, { useState } from "react";
+import AddTask from "./components/AddTask";
 
 import Tasks from "./components/Tasks";
 import "./index.css";
@@ -25,6 +26,7 @@ const App = () => {
   return (
     <>
       <div className="container">
+        <AddTask />
         <Tasks tasks={tasks} />
       </div>
     </>
