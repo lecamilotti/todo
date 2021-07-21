@@ -18,9 +18,10 @@ h1{
     
    margin: auto;
    margin-top: 2rem;
-    height: 30rem;
+    height: 40rem;
     width: 30rem;
     border: solid;
     background-color: darkseagreen;
+    padding: 1rem;
     
 }

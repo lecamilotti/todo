@@ -24,8 +24,9 @@ const App = () => {
   ]);
   return (
     <>
-      <div className="container"></div>
-      <Tasks tasks={tasks} />
+      <div className="container">
+        <Tasks tasks={tasks} />
+      </div>
     </>
   );
 };
